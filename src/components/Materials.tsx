@@ -30,7 +30,7 @@ export default function Materials() {
           >
             <div className="material-image">
               <img
-                src="/assets/materials.png"
+                src="./assets/materials.png"
                 alt={`Composición ilustrativa de ${m.title.toLowerCase()} para impresión`}
                 style={{ objectPosition: m.position }}
                 loading="lazy"

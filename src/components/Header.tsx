@@ -11,7 +11,7 @@ export default function Header() {
   return (
     <header className="header">
       <a href="#inicio" className="logo" aria-label="GFS, inicio">
-        <img src="/assets/logo.png" alt="Gran Formato y Soluciones" />
+        <img src="./assets/logo.png" alt="Gran Formato y Soluciones" />
       </a>
       <nav
         aria-label="Navegación principal"

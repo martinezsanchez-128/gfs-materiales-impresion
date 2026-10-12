@@ -55,7 +55,7 @@ export default function Clients() {
             >
               {[1, 2, 3, 4].map((number) => (
                 <img
-                  src={`/assets/client-${number}.svg`}
+                  src={`./assets/client-${number}.svg`}
                   alt={
                     copy
                       ? ""
