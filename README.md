@@ -20,6 +20,12 @@ npm run preview
 
 El resultado se genera en `dist/` y puede alojarse en un servicio de hosting estático.
 
+## Sitio público
+
+https://martinezsanchez-128.github.io/gfs-materiales-impresion/
+
+GitHub Pages publica la carpeta `docs/` de la rama `main`. Para actualizar la web, ejecuta `npm run build`, copia el contenido de `dist/` a `docs/` y guarda los cambios. Las rutas relativas permiten servir las imágenes y la aplicación desde la subcarpeta del repositorio.
+
 ## Organización
 
 - `src/components/`: navegación, hero, catálogo, carrete y WhatsApp.
