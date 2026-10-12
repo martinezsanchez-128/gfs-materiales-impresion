@@ -65,7 +65,7 @@ export default function App() {
         <section id="nosotros" className="about section">
           <div className="about-image">
             <img
-              src="/assets/workshop.png"
+              src="./assets/workshop.png"
               alt="Escena ilustrativa de un taller de impresión digital de gran formato"
               loading="lazy"
             />
@@ -169,7 +169,7 @@ export default function App() {
       </main>
       <footer>
         <a href="#inicio">
-          <img src="/assets/logo.png" alt="GFS" />
+          <img src="./assets/logo.png" alt="GFS" />
         </a>
         <p>Materiales para ideas sin límites.</p>
         <span>© {new Date().getFullYear()} Gran Formato y Soluciones</span>
